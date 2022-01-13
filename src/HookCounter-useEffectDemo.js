@@ -7,7 +7,7 @@ function HookCounteruseEffectDemo() {
   useEffect(() => {
     console.log(`clicked ${count} times`);
     // document.title = `clicked ${count} times`;
-  }, [consoleLogCount]);
+  }, []);
 
   return (
     <div>

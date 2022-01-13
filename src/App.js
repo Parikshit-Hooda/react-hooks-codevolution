@@ -3,7 +3,9 @@ import "./styles.css";
 // import HookCounter2 from "./HookCounter2";
 // import HookCounter3 from "./HookCounter3";
 // import HookCounter4 from "./HookCounter4";
-import HookCounteruseEffectDemo from "./HookCounter-useEffectDemo";
+// import HookCounteruseEffectDemo from "./HookCounter-useEffectDemo";
+import IntervalHookCounter from "./IntervalHookCounter";
+
 export default function App() {
   return (
     <div className="App">
@@ -11,7 +13,8 @@ export default function App() {
       {/* <HookCounter2 /> */}
       {/* <HookCounter3 /> */}
       {/* <HookCounter4 /> */}
-      <HookCounteruseEffectDemo />
+      {/* <HookCounteruseEffectDemo /> */}
+      <IntervalHookCounter />
     </div>
   );
 }
