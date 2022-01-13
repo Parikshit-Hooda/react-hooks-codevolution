@@ -6,7 +6,8 @@ import "./styles.css";
 // import HookCounteruseEffectDemo from "./HookCounter-useEffectDemo";
 // import IntervalHookCounter from "./IntervalHookCounter";
 // import DataFetching from "./DataFetching";
-import UseContextCompA from "./UseContextCompA";
+// import UseContextCompA from "./UseContextCompA";
+import UseReducerTest from "./UseReducerTest";
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
       {/* <HookCounteruseEffectDemo /> */}
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
-      <UseContextCompA />
+      {/* <UseContextCompA /> */}
+      <UseReducerTest />
     </div>
   );
 }
